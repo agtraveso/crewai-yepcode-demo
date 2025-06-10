@@ -1,3 +1,5 @@
+![YepCode MCP Server Preview](/readme-assets/cover.png)
+
 # YepCode MCP + crewAI: Asteroid Impact Demo
 
 This repository is a sample project demonstrating how to integrate [YepCode MCP](https://github.com/yepcode/mcp-server-js) with [crewAI](https://crewai.com) to build collaborative, multi-agent AI workflows. It shows how agents can work together to solve real-world problems using external tools and APIs.
@@ -25,6 +27,10 @@ All agent roles and goals are defined in [`src/crewai_yepcode_demo/config/agents
 ## ⚡ Quickstart
 
 ### Prerequisites
+
+- YepCode API token
+  - Sign up to [YepCode Cloud](https://cloud.yepcode.io) (it's free!)
+  - Visit `Settings` > `API credentials` to create a new API token.
 - Python >=3.10, <3.13
 - [UV](https://docs.astral.sh/uv/) for dependency management
 
